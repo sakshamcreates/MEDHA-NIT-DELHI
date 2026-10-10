@@ -13,7 +13,7 @@ export default function App() {
       <header className="border-b border-line bg-paper/90 backdrop-blur sticky top-0 z-10">
         <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
           <Link to="/" className="font-display text-xl tracking-tight">
-            THE&nbsp;UNMAPPED
+            ARUNYA
           </Link>
           <nav aria-label="Primary" className="flex gap-1 md:gap-2">
             {links.map((l) => (

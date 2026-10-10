@@ -6,15 +6,16 @@ export default function Landing() {
     <div className="space-y-14">
       <section className="pt-6 md:pt-12 max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-widest text-teal-ink">
-          Career skill intelligence · India
+          AI-assisted career intelligence · India
         </p>
         <h1 className="font-display text-4xl md:text-6xl leading-[1.05] mt-4">
-          Millions of Indians have skills the formal job market can't see.
+          Discover Your Skills. Find Your Path.
         </h1>
         <p className="mt-6 text-lg text-ink-soft leading-relaxed">
+          Millions of Indians have skills the formal job market can't see.
           A shop assistant who manages stock, cash, and suppliers. A farmer who tests soil
           and schedules irrigation. Their work is real — but it never appears on a résumé
-          in words an employer searches for. <strong className="text-ink">THE UNMAPPED</strong>{' '}
+          in words an employer searches for. <strong className="text-ink">ARUNYA</strong>{' '}
           turns plain-language descriptions of informal work into structured, verifiable
           skill profiles, and maps those profiles onto real occupations in the Indian
           labour market.

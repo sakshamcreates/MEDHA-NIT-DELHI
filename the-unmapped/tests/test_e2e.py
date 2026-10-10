@@ -48,7 +48,7 @@ def main() -> int:
         try:
             # 1. Landing
             page.goto(FRONTEND_URL + "/", wait_until="networkidle")
-            check("landing: heading", "THE UNMAPPED" in page.content())
+            check("landing: heading", "ARUNYA" in page.content())
             check("landing: CTA", page.get_by_text("Discover my skills").count() > 0)
             page.get_by_text("Discover my skills").first.click()
 

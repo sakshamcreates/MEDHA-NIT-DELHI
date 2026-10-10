@@ -1,4 +1,4 @@
-# THE UNMAPPED — API runtime dependencies (Python 3.12)
+# ARUNYA — API runtime dependencies (Python 3.12)
 fastapi==0.143.0
 uvicorn==0.54.0
 pydantic==2.14.0

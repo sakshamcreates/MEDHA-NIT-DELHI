@@ -1,4 +1,4 @@
-"""THE UNMAPPED API — thin FastAPI layer over the Python engine.
+"""ARUNYA API — thin FastAPI layer over the Python engine.
 
 Calls engine/extract.py, engine/recommender.py and the dataset directly;
 no logic is duplicated here. Run with:
@@ -18,7 +18,7 @@ from fastapi.responses import JSONResponse
 from api import schemas
 from api.signals import EVALUATION_NOTE, compute_signals
 
-log = logging.getLogger("unmapped.api")
+log = logging.getLogger("arunya.api")
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW_CSV = Path(os.environ.get("THE_UNMAPPED_DATA",
@@ -27,7 +27,7 @@ PROCESSED = ROOT / "data" / "processed"
 
 API_VERSION = "0.1.0"
 
-app = FastAPI(title="THE UNMAPPED API", version=API_VERSION,
+app = FastAPI(title="ARUNYA API", version=API_VERSION,
               docs_url="/api/docs", openapi_url="/api/openapi.json")
 
 origins = [o.strip() for o in os.environ.get(

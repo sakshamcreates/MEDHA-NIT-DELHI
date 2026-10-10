@@ -1,4 +1,4 @@
-/** Typed client for THE UNMAPPED API. Never invents data: every function
+/** Typed client for the ARUNYA API. Never invents data: every function
  *  returns exactly what the backend sent, and throws ApiError on failure —
  *  callers must render loading/error/empty states, never fake success. */
 

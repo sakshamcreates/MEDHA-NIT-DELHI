@@ -1,4 +1,4 @@
-# Netlify configuration for the THE UNMAPPED frontend (Vite + React).
+# Netlify configuration for the ARUNYA frontend (Vite + React).
 # Base directory is web/; the Python API is NOT hosted by Netlify —
 # deploy it separately (see README.md) and set VITE_API_URL.
 

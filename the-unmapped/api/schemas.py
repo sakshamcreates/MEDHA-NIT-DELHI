@@ -1,4 +1,4 @@
-"""Pydantic request/response schemas for the UNMAPPED API."""
+"""Pydantic request/response schemas for the ARUNYA API."""
 from __future__ import annotations
 
 from pydantic import BaseModel, ConfigDict, Field

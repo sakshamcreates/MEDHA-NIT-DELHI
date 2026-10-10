@@ -1,9 +1,14 @@
-# THE UNMAPPED — Career skill intelligence for the Indian labour market
+# ARUNYA — Discover Your Skills. Find Your Path.
+
+AI-assisted Career Intelligence Platform for the Indian labour market.
 
 Turns plain-language descriptions of informal work into structured skill profiles
 (TF-IDF extraction over a 241-skill canonical registry), maps profiles onto 820
 Indian occupations (transition recommender with explained learning pathways), and
 shows real labour-market signals (salary distributions, demand trends by domain).
+
+Built for the MEDHA Hackathon (PS-02 — Social Upliftment); MEDHA remains the name
+of the competition.
 
 **Scientific-integrity note:** 0/30 pilot descriptions are human-reviewed, so model
 performance is not validated and no accuracy claims are made. Scores are uncalibrated
@@ -66,14 +71,14 @@ Error responses are JSON `{detail: ...}`; stack traces are never exposed.
 - Build command: `npm run build`
 - Publish directory: `dist`
 - Environment variable: `VITE_API_URL` = your deployed API URL
-  (e.g. `https://unmapped-api.onrender.com`). If unset, same-origin `/api` is used.
+  (e.g. `https://arunya-api.onrender.com`). If unset, same-origin `/api` is used.
 - `netlify.toml` in the repo root already configures the above plus SPA fallback.
 
 **Backend → any Python host (Render / Railway / Fly.io):**
 - Runtime: Python 3.12; install: `pip install -r requirements.txt`
 - Start command: `uvicorn api.main:app --host 0.0.0.0 --port $PORT`
 - Environment: `FRONTEND_ORIGIN` = your Netlify site URL
-  (e.g. `https://the-unmapped.netlify.app`); `THE_UNMAPPED_DATA` optionally
+  (e.g. `https://arunya.netlify.app`); `THE_UNMAPPED_DATA` optionally
   overrides the dataset path.
 - No database required. The model builds in-memory on first extraction
   request (~60 s); provision ≥1 GB RAM.
