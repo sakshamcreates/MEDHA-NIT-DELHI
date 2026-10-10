@@ -7,9 +7,10 @@ from pathlib import Path
 
 import pytest
 
-from scripts.review_pilot import (apply_decision, load_pilot, load_registry,
-                                  reviewed_label_set, save_review,
-                                  validate_review, load_reviews)
+from scripts.review_pilot import (DuplicateReviewError, apply_decision, load_pilot,
+                                  load_registry, reviewed_label_set, save_review,
+                                  validate_review, load_reviews, review_history,
+                                  reviewers_in)
 from scripts.review_pairs import (apply_pair_decision, load_queue,
                                   validate_pair_review)
 
@@ -65,9 +66,10 @@ def test_reviews_stored_separately(pilot, tmp_path):
     out = tmp_path / "pilot_reviews.jsonl"
     ex = pilot[1]
     rec = apply_decision(ex, "approved", [], "", "tester")
-    save_review(out, rec)
+    stored = save_review(out, rec)
+    assert stored["version"] == 1
     saved = load_reviews(out)
-    assert list(saved) == [ex["example_id"]]
+    assert list(saved) == [(ex["example_id"], "tester")]
     # pilot source untouched: still pending, no reviewer fields
     for r in pilot:
         assert r["review_status"] == "pending"
@@ -77,8 +79,8 @@ def test_reviews_stored_separately(pilot, tmp_path):
 def test_reviewed_label_set_excludes_pending_and_rejected(pilot):
     ex_a, ex_b, ex_c = pilot[0], pilot[1], pilot[2]
     reviews = {
-        ex_a["example_id"]: apply_decision(ex_a, "approved", [], "", "t"),
-        ex_b["example_id"]: apply_decision(ex_b, "rejected", [], "bad", "t"),
+        (ex_a["example_id"], "t"): apply_decision(ex_a, "approved", [], "", "t"),
+        (ex_b["example_id"], "t"): apply_decision(ex_b, "rejected", [], "bad", "t"),
     }
     got = reviewed_label_set(pilot, reviews)
     assert ex_a["example_id"] in got
@@ -92,7 +94,7 @@ def test_corrected_labels_used(pilot):
                   "evidence_span": ex["description"][:10], "change": "kept"}]
     assert corrected[0]["evidence_span"] in ex["description"]
     rec = apply_decision(ex, "corrected", corrected, "trimmed", "t")
-    got = reviewed_label_set(pilot, {ex["example_id"]: rec})
+    got = reviewed_label_set(pilot, {(ex["example_id"], "t"): rec})
     assert got[ex["example_id"]] == corrected
 
 

@@ -1,0 +1,204 @@
+{
+  "tool": "review_report.py v0.1.0",
+  "target": 30,
+  "n_pilot_examples": 30,
+  "n_valid_reviews": 0,
+  "n_pending": 30,
+  "n_invalid_records": 0,
+  "decisions": {
+    "approved": 0,
+    "corrected": 0,
+    "rejected": 0
+  },
+  "by_reviewer": {},
+  "invalid_records": [],
+  "agreement": {
+    "n_doubly_reviewed": 0,
+    "examples": [],
+    "note": "Cohen's kappa territory: with 2 reviewers and categorical skill-set decisions, exact-match rate and mean Jaccard are reported; kappa can be derived from the exported records."
+  },
+  "evaluation_ready": false,
+  "status": "INCOMPLETE: 0/30 valid reviews",
+  "per_example": {
+    "PILOT-001": {
+      "example_id": "PILOT-001",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-002": {
+      "example_id": "PILOT-002",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-003": {
+      "example_id": "PILOT-003",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-004": {
+      "example_id": "PILOT-004",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-005": {
+      "example_id": "PILOT-005",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-006": {
+      "example_id": "PILOT-006",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-007": {
+      "example_id": "PILOT-007",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-008": {
+      "example_id": "PILOT-008",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-009": {
+      "example_id": "PILOT-009",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-010": {
+      "example_id": "PILOT-010",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-011": {
+      "example_id": "PILOT-011",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-012": {
+      "example_id": "PILOT-012",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-013": {
+      "example_id": "PILOT-013",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-014": {
+      "example_id": "PILOT-014",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-015": {
+      "example_id": "PILOT-015",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-016": {
+      "example_id": "PILOT-016",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-017": {
+      "example_id": "PILOT-017",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-018": {
+      "example_id": "PILOT-018",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-019": {
+      "example_id": "PILOT-019",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-020": {
+      "example_id": "PILOT-020",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-021": {
+      "example_id": "PILOT-021",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-022": {
+      "example_id": "PILOT-022",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-023": {
+      "example_id": "PILOT-023",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-024": {
+      "example_id": "PILOT-024",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-025": {
+      "example_id": "PILOT-025",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-026": {
+      "example_id": "PILOT-026",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-027": {
+      "example_id": "PILOT-027",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-028": {
+      "example_id": "PILOT-028",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-029": {
+      "example_id": "PILOT-029",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    },
+    "PILOT-030": {
+      "example_id": "PILOT-030",
+      "reviewers": {},
+      "status": "pending",
+      "problems": []
+    }
+  }
+}

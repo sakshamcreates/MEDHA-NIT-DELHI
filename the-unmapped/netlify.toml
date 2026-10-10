@@ -1,0 +1,17 @@
+# Netlify configuration for the THE UNMAPPED frontend (Vite + React).
+# Base directory is web/; the Python API is NOT hosted by Netlify —
+# deploy it separately (see README.md) and set VITE_API_URL.
+
+[build]
+  base = "web"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# SPA fallback for client-side routing (/discover, /results, /career, /dashboard)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -43,19 +43,28 @@ def load_pilot():
 
 
 def load_reviewed_examples(manifest: dict | None = None,
-                           split: str = "test") -> tuple[list[dict], dict]:
+                           split: str = "test",
+                           reviewer: str | None = None) -> tuple[list[dict], dict]:
     """Build the labeled set from HUMAN reviews only.
 
     pilot_descriptions.jsonl is never mutated; decisions come from
-    pilot_reviews.jsonl. Returns (examples, meta). Raises SystemExit(2)
-    when no reviewed labels exist.
+    pilot_reviews.jsonl (append-only, versioned). With several reviewers in
+    the log, `reviewer` must name whose decisions to use. Returns
+    (examples, meta). Raises SystemExit(2) when no reviewed labels exist.
     """
-    from scripts.review_pilot import load_reviews, reviewed_label_set
+    from scripts.review_pilot import load_reviews, reviewed_label_set, reviewers_in
     pilot = load_pilot()
     by_id = {r["example_id"]: r for r in pilot}
-    labeled = reviewed_label_set(pilot, load_reviews(REVIEWS))
+    all_reviews = load_reviews(REVIEWS)
+    try:
+        labeled = reviewed_label_set(pilot, all_reviews, reviewer)
+    except ValueError as e:
+        print(f"REFUSAL: {e}", file=sys.stderr)
+        raise SystemExit(2) from e
     meta: dict = {"label_source": "pilot_reviews.jsonl (human decisions only)",
-                  "n_reviewed_pool": len(labeled)}
+                  "n_reviewed_pool": len(labeled),
+                  "reviewers": reviewers_in(REVIEWS),
+                  "reviewer_used": reviewer or (reviewers_in(REVIEWS)[:1] or [None])[0]}
     if manifest:
         want = set(manifest.get(f"{split}_ids", []))
         labeled = {k: v for k, v in labeled.items() if k in want}
@@ -181,6 +190,9 @@ def main() -> None:
     ap.add_argument("--manifest", default=None,
                     help="held-out manifest JSON; evaluates only that split")
     ap.add_argument("--split", default="test", choices=["dev", "test"])
+    ap.add_argument("--reviewer", default=None,
+                    help="whose review decisions form the label set "
+                         "(required when several reviewers exist)")
     args = ap.parse_args()
 
     if args.diagnostics:
@@ -205,7 +217,7 @@ def main() -> None:
 
     manifest = json.loads(Path(args.manifest).read_text(encoding="utf-8")) \
         if args.manifest else None
-    examples, meta = load_reviewed_examples(manifest, args.split)
+    examples, meta = load_reviewed_examples(manifest, args.split, args.reviewer)
 
     print(f"evaluating on {len(examples)} REVIEWED examples "
           f"[source: {meta['label_source']}]"

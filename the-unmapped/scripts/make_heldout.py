@@ -45,10 +45,11 @@ def _split_ids(ids: list[str], salt: str, test_ratio: float) -> tuple[list[str],
 
 
 def make_heldout(version: str, created_by: str, salt: str, test_ratio: float,
-                 min_reviewed: int, out_dir: Path) -> dict:
+                 min_reviewed: int, out_dir: Path,
+                 reviewer: str | None = None) -> dict:
     pilot = load_pilot()
     by_id = {r["example_id"]: r for r in pilot}
-    labeled = reviewed_label_set(pilot, load_reviews(REVIEWS))
+    labeled = reviewed_label_set(pilot, load_reviews(REVIEWS), reviewer)
     if len(labeled) < min_reviewed:
         raise SystemExit(
             f"REFUSAL: only {len(labeled)} reviewed examples; "
@@ -60,6 +61,7 @@ def make_heldout(version: str, created_by: str, salt: str, test_ratio: float,
         "tool": TOOL_VERSION,
         "created_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "created_by": created_by,
+        "reviewer_used": reviewer,
         "salt": salt,
         "test_ratio": test_ratio,
         "data_checksum": _md5(RAW_CSV),
@@ -92,6 +94,9 @@ def main() -> None:
     ap.add_argument("--salt", default="the-unmapped-heldout")
     ap.add_argument("--test-ratio", type=float, default=0.3)
     ap.add_argument("--min-reviewed", type=int, default=10)
+    ap.add_argument("--reviewer", default=None,
+                    help="whose review decisions form the split "
+                         "(required when several reviewers exist)")
     ap.add_argument("--out-dir", default=None)
     args = ap.parse_args()
     out_dir = Path(args.out_dir) if args.out_dir else \
@@ -100,7 +105,7 @@ def main() -> None:
         raise SystemExit(f"REFUSAL: {out_dir} already exists -- held-out splits are "
                          f"immutable; use a new --version.")
     m = make_heldout(args.version, args.created_by, args.salt, args.test_ratio,
-                     args.min_reviewed, out_dir)
+                     args.min_reviewed, out_dir, args.reviewer)
     print(f"locked {out_dir}: dev={m['n_dev']} test={m['n_test']}")
 
 
