@@ -41,5 +41,6 @@ Full methodology: `docs/phase-1-evaluation-plan.md`. Dataset findings: `docs/pha
 | Date | Event | Result |
 |---|---|---|
 | 2026-10-10 | Phase 1 complete: dataset audited, architecture & evaluation plan written, claim pre-registered | No experimental outcomes yet |
+| 2026-10-10 | Phase 2 complete: registry (241 canonical skills, 8,200 occupation relations, 6 aliases, 41 review pairs), 30-description pilot (all pending review), keyword baseline, 28/28 tests passing | Provisional baseline micro-F1 0.140 on unreviewed pilot labels — pilot signal only, NOT the claim test; claim thresholds unchanged |
 | — | Pilot labeling (n=30) | *pending* |
 | — | Held-out claim run | *pending* |

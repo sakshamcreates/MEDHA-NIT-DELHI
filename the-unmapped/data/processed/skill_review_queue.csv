@@ -1,0 +1,42 @@
+pair_id,skill_a_id,skill_a_label,skill_b_id,skill_b_label,relation,shared_tokens,recommendation,status
+REV-001,SKL-002,Accounting,SKL-042,Cost Accounting,substring,accounting,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-002,SKL-002,Accounting,SKL-092,Financial Accounting,substring,accounting,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-003,SKL-004,Advanced Mathematics,SKL-127,Mathematics,substring,mathematics,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-004,SKL-011,Assessment,SKL-025,Clinical Assessment,substring,assessment,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-005,SKL-011,Assessment,SKL-180,Risk Assessment,substring,assessment,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-006,SKL-017,Business Communication,SKL-031,Communication,substring,communication,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-007,SKL-023,Client Communication,SKL-031,Communication,substring,communication,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-008,SKL-024,Client Counseling,SKL-043,Counseling,substring,counseling,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-009,SKL-026,Clinical Decision Making,SKL-064,Decision Making,substring,decision|making,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-010,SKL-029,Collaboration,SKL-220,Team Collaboration,substring,collaboration,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-011,SKL-031,Communication,SKL-148,Patient Communication,substring,communication,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-012,SKL-031,Communication,SKL-182,Rural Communication,substring,communication,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-013,SKL-031,Communication,SKL-227,Technical Communication,substring,communication,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-014,SKL-031,Communication,SKL-239,Visual Communication,substring,communication,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-015,SKL-033,Compliance,SKL-034,Compliance Monitoring,substring,compliance,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-016,SKL-033,Compliance,SKL-172,Regulatory Compliance,substring,compliance,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-017,SKL-058,Data Entry,SKL-059,Data Entry Accuracy,substring,data|entry,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-018,SKL-064,Decision Making,SKL-065,Decision Making Under Pressure,substring,decision|making,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-019,SKL-068,Diagnosis,SKL-149,Patient Diagnosis,substring,diagnosis,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-020,SKL-073,Documentation,SKL-074,Documentation Management,substring,documentation,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-021,SKL-073,Documentation,SKL-118,Legal Documentation,substring,documentation,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-022,SKL-073,Documentation,SKL-131,Medical Documentation,substring,documentation,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-023,SKL-073,Documentation,SKL-228,Technical Documentation,substring,documentation,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-024,SKL-098,Flight Planning,SKL-154,Planning,substring,planning,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-025,SKL-104,Holistic Treatment Planning,SKL-154,Planning,substring,planning,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-026,SKL-117,Leadership,SKL-222,Team Leadership,substring,leadership,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-027,SKL-120,Legal Research,SKL-176,Research,substring,research,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-028,SKL-122,Maintenance,SKL-123,Maintenance Planning,substring,maintenance,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-029,SKL-123,Maintenance Planning,SKL-154,Planning,substring,planning,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-030,SKL-125,Market Research,SKL-176,Research,substring,research,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-031,SKL-135,Menu Planning,SKL-154,Planning,substring,planning,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-032,SKL-154,Planning,SKL-203,Strategic Financial Planning,substring,planning,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-033,SKL-154,Planning,SKL-204,Strategic Planning,substring,planning,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-034,SKL-154,Planning,SKL-215,Tactical Planning,substring,planning,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-035,SKL-154,Planning,SKL-234,Therapeutic Planning,substring,planning,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-036,SKL-158,Presentation,SKL-159,Presentation Skills,substring,presentation,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-037,SKL-176,Research,SKL-177,Research Methodology,substring,research,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-038,SKL-176,Research,SKL-178,Research Skills,substring,research,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-039,SKL-176,Research,SKL-190,Scientific Research,substring,research,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-040,SKL-198,Speed,SKL-237,Typing Speed,substring,speed,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open
+REV-041,SKL-203,Strategic Financial Planning,SKL-204,Strategic Planning,token_overlap,planning|strategic,"Manual review required: keep separate, merge, or alias. DO NOT auto-merge; decision affects registry IDs and all labels.",open

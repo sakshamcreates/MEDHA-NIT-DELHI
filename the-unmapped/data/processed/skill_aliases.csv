@@ -1,0 +1,7 @@
+alias,normalized_alias,skill_id,canonical_label,alias_type,status,notes
+Experiment Design,experiment design,SKL-091,Experimental Design,spelling_variant,approved,Same concept; adjectival form is the standard term. Both labels remain in the registry; alias routes the variant.
+excel,excel,SKL-089,Excel/Spreadsheets,informal_variant,approved,Unambiguous shorthand for spreadsheet work; canonical label is Excel/Spreadsheets.
+ms excel,ms excel,SKL-089,Excel/Spreadsheets,informal_variant,approved,Microsoft Excel; unambiguous.
+spreadsheet,spreadsheet,SKL-089,Excel/Spreadsheets,informal_variant,approved,Generic term; the registry's only spreadsheet skill is Excel/Spreadsheets.
+spreadsheets,spreadsheets,SKL-089,Excel/Spreadsheets,informal_variant,approved,Plural of spreadsheet; same mapping.
+tally,tally,SKL-092,Financial Accounting,informal_variant,approved,In Indian small-business context 'Tally' unambiguously means Tally ERP accounting software; 'did accounts in Tally' implies Financial Accounting.

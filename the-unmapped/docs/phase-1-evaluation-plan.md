@@ -101,6 +101,66 @@ The problem statement scores calibration explicitly: constant "high match" outpu
 
 ---
 
+## 6. Phase 2 results (actual, 2026-10-10)
+
+Implementation: `scripts/build_registry.py`, `scripts/build_pilot.py`, `engine/keyword_baseline.py`.
+Tests: **28 passed** (`pytest tests/`).
+
+### 6.1 Registry (built from the real dataset)
+
+- **241 canonical skills**, IDs `SKL-001`–`SKL-241`, assigned by sorting normalized labels —
+  deterministic and stable across runs (verified byte-identical rebuilds).
+- **820 occupations, 8,200 occupation→skill relationships** (10 per occupation), all references validated.
+- **6 approved aliases** (1 spelling variant: *Experiment Design* → *Experimental Design*;
+  5 informal variants: *tally*, *excel*, *ms excel*, *spreadsheet(s)* → canonical skills),
+  each with a documented rationale. Every alias target is a valid registry ID.
+- **41 near-duplicate pairs** in `skill_review_queue.csv`, all `open`, all marked
+  "DO NOT auto-merge" — awaiting human decision (keep separate / merge / alias).
+- **41 domains** summarized (occupation counts, salary, demand trends, top skills).
+
+**Adaptations from Phase 1 (documented):** registry artifacts are CSV, not JSON, for human
+auditability; pilot descriptions are 30–45 words (not 40–120) — brevity is realistic for
+form inputs and spans remain the evidence unit.
+
+### 6.2 Pilot dataset
+
+- `data/evaluation/pilot_descriptions.jsonl`: **30 examples, 117 skill annotations**,
+  spanning **14 domains** (family-business accounting, retail, BPO, admin, godown,
+  self-taught Python/web, tutoring, home care, dhaba, electrical, farming, parlour,
+  mobile repair, hotel, security, data entry, video editing, GST, pharmacy, school office,
+  masonry, carpentry, social media, bank CSP, health volunteer, warehouse, writing, cashier, waiter).
+- **All 30 `review_status: pending`, all `"synthetic": true`.** Annotation guide at
+  `data/evaluation/ANNOTATION_GUIDE.md`. The pilot is not the final held-out set.
+
+### 6.3 Keyword baseline — provisional measurement (NOT the claim test)
+
+Baseline run over the 30 pilot descriptions against the *unreviewed* synthetic labels:
+
+| Metric | Value |
+|---|---|
+| micro-precision | 0.750 |
+| micro-recall | 0.077 |
+| **micro-F1** | **0.140** (tp=9, fp=3, fn=108) |
+
+Read this as a pilot signal only: labels are synthetic and pending review, and the pilot
+is not the locked held-out set. What it already shows is the expected mechanism —
+high precision when the baseline fires, near-zero recall on paraphrased informal phrasing
+("did the accounts", "ran the accounts" never match literally). On these provisional
+numbers the **absolute 0.50 bar is the binding constraint** (baseline + 0.10 = 0.24).
+
+Sample (PILOT-001, Divya-like): baseline predicts *Financial Accounting* ← "Tally"
+(alias) and *Excel/Spreadsheets* ← "Excel" (alias); it misses *Data Entry*, *Taxation*,
+*Record Keeping* — all paraphrased. Evidence spans verified exact on all 12 predictions
+across the 30 descriptions.
+
+### 6.4 Remaining steps before final evaluation
+
+1. Human review of the 30 pilot descriptions (guide provided) + Cohen's κ on overlap.
+2. Human decisions on the 41 review-queue pairs (may change registry IDs → rebuild + relabel).
+3. Finalize the absolute F1 threshold in light of reviewed pilot numbers (margin ≥ +0.10 fixed).
+4. Build the 100–120-description held-out set, lock with checksum.
+5. Implement the TF-IDF intervention engine (Phase 3+) and run the claim test once.
+
 ## 5. Pending decisions (to resolve in Phase 2)
 
 1. Final absolute F1 threshold after the n=30 pilot (margin ≥ +0.10 is fixed).

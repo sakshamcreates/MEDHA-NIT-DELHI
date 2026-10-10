@@ -1,0 +1,242 @@
+skill_id,label,normalized_label,occupation_count,example_occupations,source
+SKL-001,Academic Writing,Academic Writing,1,soc_25-1022.00,indian_skills_dataset.csv
+SKL-002,Accounting,Accounting,50,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-003,Administrative Coordination,Administrative Coordination,1,soc_43-9061.00,indian_skills_dataset.csv
+SKL-004,Advanced Mathematics,Advanced Mathematics,1,soc_19-2012.00,indian_skills_dataset.csv
+SKL-005,Advocacy,Advocacy,18,soc_21-1011_00|soc_21-1012_00|soc_21-1013_00,indian_skills_dataset.csv
+SKL-006,Agronomy,Agronomy,15,soc_19-1013.01|soc_45-1011_00|soc_45-2011_00,indian_skills_dataset.csv
+SKL-007,Algorithms,Algorithms,38,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-008,Analytical Reasoning,Analytical Reasoning,1,soc_17-2071.00,indian_skills_dataset.csv
+SKL-009,Analytical Thinking,Analytical Thinking,12,soc_17-2141.00|soc_19-1042.00|soc_23-1011_00,indian_skills_dataset.csv
+SKL-010,Argumentation,Argumentation,8,soc_23-1011_00|soc_23-1012_00|soc_23-1021_00,indian_skills_dataset.csv
+SKL-011,Assessment,Assessment,68,soc_25-1011_00|soc_25-1021_00|soc_25-1022_00,indian_skills_dataset.csv
+SKL-012,Attention to Detail,Attention to Detail,72,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-013,Auditing,Auditing,2,soc_13-2011.00|soc_13-2011.01,indian_skills_dataset.csv
+SKL-014,Blueprint Reading,Blueprint Reading,90,soc_47-1011_00|soc_47-1011_03|soc_47-2011_00,indian_skills_dataset.csv
+SKL-015,Budgeting,Budgeting,1,soc_13-2031.00,indian_skills_dataset.csv
+SKL-016,Business Analytics,Business Analytics,1,soc_13-2031.00,indian_skills_dataset.csv
+SKL-017,Business Communication,Business Communication,1,soc_13-2011.01,indian_skills_dataset.csv
+SKL-018,CAD Software,CAD Software,59,soc_17-1011_00|soc_17-1012_00|soc_17-1021_00,indian_skills_dataset.csv
+SKL-019,Case Management,Case Management,26,soc_21-1011_00|soc_21-1012_00|soc_21-1013_00,indian_skills_dataset.csv
+SKL-020,Chemical Safety,Chemical Safety,10,soc_37-1011_00|soc_37-1012_00|soc_37-2011_00,indian_skills_dataset.csv
+SKL-021,Classroom Management,Classroom Management,68,soc_25-1011_00|soc_25-1021_00|soc_25-1022_00,indian_skills_dataset.csv
+SKL-022,Cleaning Techniques,Cleaning Techniques,10,soc_37-1011_00|soc_37-1012_00|soc_37-2011_00,indian_skills_dataset.csv
+SKL-023,Client Communication,Client Communication,45,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-024,Client Counseling,Client Counseling,8,soc_23-1011_00|soc_23-1012_00|soc_23-1021_00,indian_skills_dataset.csv
+SKL-025,Clinical Assessment,Clinical Assessment,96,soc_29-1011_00|soc_29-1021_00|soc_29-1022_00,indian_skills_dataset.csv
+SKL-026,Clinical Decision Making,Clinical Decision Making,1,soc_29-1215.01,indian_skills_dataset.csv
+SKL-027,Clinical Skills,Clinical Skills,20,soc_31-1121_00|soc_31-1122_00|soc_31-1131_00,indian_skills_dataset.csv
+SKL-028,Cloud Computing,Cloud Computing,38,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-029,Collaboration,Collaboration,112,soc_19-1011_00|soc_19-1012_00|soc_19-1013_00,indian_skills_dataset.csv
+SKL-030,Color Theory,Color Theory,45,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-031,Communication,Communication,395,soc_11-1011.00|soc_11-1011_00|soc_11-1011_03,indian_skills_dataset.csv
+SKL-032,Community Outreach,Community Outreach,18,soc_21-1011_00|soc_21-1012_00|soc_21-1013_00,indian_skills_dataset.csv
+SKL-033,Compliance,Compliance,50,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-034,Compliance Monitoring,Compliance Monitoring,1,soc_23-1011.01,indian_skills_dataset.csv
+SKL-035,Computer Skills,Computer Skills,1,soc_43-9061.00,indian_skills_dataset.csv
+SKL-036,Confidentiality,Confidentiality,55,soc_43-1011_00|soc_43-2011_00|soc_43-2021_00,indian_skills_dataset.csv
+SKL-037,Conflict Resolution,Conflict Resolution,1,soc_33-3051.00,indian_skills_dataset.csv
+SKL-038,Construction Techniques,Construction Techniques,65,soc_47-1011_00|soc_47-1011_03|soc_47-2011_00,indian_skills_dataset.csv
+SKL-039,Continuous Learning,Continuous Learning,96,soc_29-1011_00|soc_29-1021_00|soc_29-1022_00,indian_skills_dataset.csv
+SKL-040,Corporate Governance,Corporate Governance,1,soc_23-1011.01,indian_skills_dataset.csv
+SKL-041,Corporate Law,Corporate Law,1,soc_23-1011.01,indian_skills_dataset.csv
+SKL-042,Cost Accounting,Cost Accounting,1,soc_13-2031.00,indian_skills_dataset.csv
+SKL-043,Counseling,Counseling,18,soc_21-1011_00|soc_21-1012_00|soc_21-1013_00,indian_skills_dataset.csv
+SKL-044,Court Administration,Court Administration,1,soc_23-1023.01,indian_skills_dataset.csv
+SKL-045,Creativity,Creativity,97,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-046,Crisis Intervention,Crisis Intervention,18,soc_21-1011_00|soc_21-1012_00|soc_21-1013_00,indian_skills_dataset.csv
+SKL-047,Crisis Management,Crisis Management,30,soc_11-1011.00|soc_33-1011_00|soc_33-1012_00,indian_skills_dataset.csv
+SKL-048,Crisis Response,Crisis Response,1,soc_33-3052.00,indian_skills_dataset.csv
+SKL-049,Critical Thinking,Critical Thinking,165,soc_13-2011.00|soc_19-1011_00|soc_19-1012_00,indian_skills_dataset.csv
+SKL-050,CRM Tools,CRM Tools,23,soc_41-1011_00|soc_41-1012_00|soc_41-2011_00,indian_skills_dataset.csv
+SKL-051,Crop Management,Crop Management,1,soc_19-1013.01,indian_skills_dataset.csv
+SKL-052,Crop Science,Crop Science,14,soc_45-1011_00|soc_45-2011_00|soc_45-2021_00,indian_skills_dataset.csv
+SKL-053,Cultural Sensitivity,Cultural Sensitivity,18,soc_21-1011_00|soc_21-1012_00|soc_21-1013_00,indian_skills_dataset.csv
+SKL-054,Curriculum Design,Curriculum Design,68,soc_25-1011_00|soc_25-1021_00|soc_25-1022_00,indian_skills_dataset.csv
+SKL-055,Customer Relations,Customer Relations,23,soc_41-1011_00|soc_41-1012_00|soc_41-2011_00,indian_skills_dataset.csv
+SKL-056,Customer Service,Customer Service,133,soc_35-1011_00|soc_35-1012_00|soc_35-2011_00,indian_skills_dataset.csv
+SKL-057,Data Analysis,Data Analysis,73,soc_13-2011.00|soc_13-2031.00|soc_13-2051.00,indian_skills_dataset.csv
+SKL-058,Data Entry,Data Entry,55,soc_43-1011_00|soc_43-2011_00|soc_43-2021_00,indian_skills_dataset.csv
+SKL-059,Data Entry Accuracy,Data Entry Accuracy,1,soc_43-9061.00,indian_skills_dataset.csv
+SKL-060,Data Interpretation,Data Interpretation,50,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-061,Data Recording,Data Recording,14,soc_45-1011_00|soc_45-2011_00|soc_45-2021_00,indian_skills_dataset.csv
+SKL-062,Data Structures,Data Structures,38,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-063,Database Management,Database Management,38,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-064,Decision Making,Decision Making,94,soc_11-1011.00|soc_11-1011_00|soc_11-1011_03,indian_skills_dataset.csv
+SKL-065,Decision Making Under Pressure,Decision Making Under Pressure,1,soc_55-1013.00,indian_skills_dataset.csv
+SKL-066,Design Software,Design Software,45,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-067,DevOps,DevOps,38,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-068,Diagnosis,Diagnosis,96,soc_29-1011_00|soc_29-1021_00|soc_29-1022_00,indian_skills_dataset.csv
+SKL-069,Diagnostic Skills,Diagnostic Skills,25,soc_49-1011_00|soc_49-2011_00|soc_49-2021_00,indian_skills_dataset.csv
+SKL-070,Digital Literacy,Digital Literacy,68,soc_25-1011_00|soc_25-1021_00|soc_25-1022_00,indian_skills_dataset.csv
+SKL-071,Discipline,Discipline,3,soc_33-3052.00|soc_55-1012.00|soc_55-1013.00,indian_skills_dataset.csv
+SKL-072,Dispute Resolution,Dispute Resolution,1,soc_23-1023.01,indian_skills_dataset.csv
+SKL-073,Documentation,Documentation,201,soc_13-2011.00|soc_17-1011_00|soc_17-1012_00,indian_skills_dataset.csv
+SKL-074,Documentation Management,Documentation Management,1,soc_43-9061.00,indian_skills_dataset.csv
+SKL-075,Drafting,Drafting,8,soc_23-1011_00|soc_23-1012_00|soc_23-1021_00,indian_skills_dataset.csv
+SKL-076,Economic Interpretation,Economic Interpretation,1,soc_13-2051.00,indian_skills_dataset.csv
+SKL-077,Electrical Systems,Electrical Systems,25,soc_49-1011_00|soc_49-2011_00|soc_49-2021_00,indian_skills_dataset.csv
+SKL-078,Electronics Design,Electronics Design,1,soc_17-2141.00,indian_skills_dataset.csv
+SKL-079,Empathy,Empathy,170,soc_21-1011_00|soc_21-1012_00|soc_21-1013_00,indian_skills_dataset.csv
+SKL-080,Engineering Analysis,Engineering Analysis,59,soc_17-1011_00|soc_17-1012_00|soc_17-1021_00,indian_skills_dataset.csv
+SKL-081,Engineering Design,Engineering Design,1,soc_17-2071.00,indian_skills_dataset.csv
+SKL-082,Environmental Awareness,Environmental Awareness,1,soc_19-1013.01,indian_skills_dataset.csv
+SKL-083,Equipment Operation,Equipment Operation,127,soc_31-1121_00|soc_31-1122_00|soc_31-1131_00,indian_skills_dataset.csv
+SKL-084,Equipment Repair,Equipment Repair,25,soc_49-1011_00|soc_49-2011_00|soc_49-2021_00,indian_skills_dataset.csv
+SKL-085,ERP Systems,ERP Systems,50,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-086,Ethical Judgment,Ethical Judgment,3,soc_11-1011.00|soc_23-1023.01|soc_33-3051.00,indian_skills_dataset.csv
+SKL-087,Ethical Practice,Ethical Practice,1,soc_29-1215.01,indian_skills_dataset.csv
+SKL-088,Ethics,Ethics,36,soc_23-1011_00|soc_23-1012_00|soc_23-1021_00,indian_skills_dataset.csv
+SKL-089,Excel/Spreadsheets,Excel/Spreadsheets,50,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-090,Experiment Design,Experiment Design,1,soc_19-1042.00,indian_skills_dataset.csv
+SKL-091,Experimental Design,Experimental Design,1,soc_19-2012.00,indian_skills_dataset.csv
+SKL-092,Financial Accounting,Financial Accounting,1,soc_13-2011.01,indian_skills_dataset.csv
+SKL-093,Financial Acumen,Financial Acumen,59,soc_11-1011_00|soc_11-1011_03|soc_11-1021_00,indian_skills_dataset.csv
+SKL-094,Financial Analysis,Financial Analysis,53,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-095,Financial Literacy,Financial Literacy,1,soc_43-9061.00,indian_skills_dataset.csv
+SKL-096,Financial Modeling,Financial Modeling,1,soc_13-2031.00,indian_skills_dataset.csv
+SKL-097,First Aid,First Aid,48,soc_31-1121_00|soc_31-1122_00|soc_31-1131_00,indian_skills_dataset.csv
+SKL-098,Flight Planning,Flight Planning,1,soc_55-1012.00,indian_skills_dataset.csv
+SKL-099,Food Preparation,Food Preparation,18,soc_35-1011_00|soc_35-1012_00|soc_35-2011_00,indian_skills_dataset.csv
+SKL-100,Forecasting,Forecasting,50,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-101,Grant Writing,Grant Writing,66,soc_19-1011_00|soc_19-1012_00|soc_19-1013_00,indian_skills_dataset.csv
+SKL-102,Hand Tools,Hand Tools,25,soc_49-1011_00|soc_49-2011_00|soc_49-2021_00,indian_skills_dataset.csv
+SKL-103,Herbal Medicine Knowledge,Herbal Medicine Knowledge,1,soc_29-1215.01,indian_skills_dataset.csv
+SKL-104,Holistic Treatment Planning,Holistic Treatment Planning,1,soc_29-1215.01,indian_skills_dataset.csv
+SKL-105,Hygiene Standards,Hygiene Standards,18,soc_35-1011_00|soc_35-1012_00|soc_35-2011_00,indian_skills_dataset.csv
+SKL-106,Infection Control,Infection Control,20,soc_31-1121_00|soc_31-1122_00|soc_31-1131_00,indian_skills_dataset.csv
+SKL-107,Innovation,Innovation,1,soc_19-1042.00,indian_skills_dataset.csv
+SKL-108,Interpersonal Skills,Interpersonal Skills,1,soc_29-1128.01,indian_skills_dataset.csv
+SKL-109,Inventory Management,Inventory Management,18,soc_35-1011_00|soc_35-1012_00|soc_35-2011_00,indian_skills_dataset.csv
+SKL-110,Investigation,Investigation,29,soc_13-2011.00|soc_33-1011_00|soc_33-1012_00,indian_skills_dataset.csv
+SKL-111,Investigative Analysis,Investigative Analysis,1,soc_33-3051.00,indian_skills_dataset.csv
+SKL-112,Investment Strategy,Investment Strategy,1,soc_13-2051.00,indian_skills_dataset.csv
+SKL-113,Irrigation,Irrigation,14,soc_45-1011_00|soc_45-2011_00|soc_45-2021_00,indian_skills_dataset.csv
+SKL-114,Judicial Writing,Judicial Writing,1,soc_23-1023.01,indian_skills_dataset.csv
+SKL-115,Laboratory Techniques,Laboratory Techniques,66,soc_19-1011_00|soc_19-1012_00|soc_19-1013_00,indian_skills_dataset.csv
+SKL-116,Law Knowledge,Law Knowledge,28,soc_33-1011_00|soc_33-1012_00|soc_33-1021_00,indian_skills_dataset.csv
+SKL-117,Leadership,Leadership,93,soc_11-1011.00|soc_11-1011_00|soc_11-1011_03,indian_skills_dataset.csv
+SKL-118,Legal Documentation,Legal Documentation,1,soc_23-1011.01,indian_skills_dataset.csv
+SKL-119,Legal Reasoning,Legal Reasoning,1,soc_23-1023.01,indian_skills_dataset.csv
+SKL-120,Legal Research,Legal Research,9,soc_23-1011_00|soc_23-1012_00|soc_23-1021_00,indian_skills_dataset.csv
+SKL-121,Literature Review,Literature Review,66,soc_19-1011_00|soc_19-1012_00|soc_19-1013_00,indian_skills_dataset.csv
+SKL-122,Maintenance,Maintenance,10,soc_37-1011_00|soc_37-1012_00|soc_37-2011_00,indian_skills_dataset.csv
+SKL-123,Maintenance Planning,Maintenance Planning,1,soc_17-2071.00,indian_skills_dataset.csv
+SKL-124,Market Analysis,Market Analysis,23,soc_41-1011_00|soc_41-1012_00|soc_41-2011_00,indian_skills_dataset.csv
+SKL-125,Market Research,Market Research,1,soc_13-2051.00,indian_skills_dataset.csv
+SKL-126,Material Management,Material Management,65,soc_47-1011_00|soc_47-1011_03|soc_47-2011_00,indian_skills_dataset.csv
+SKL-127,Mathematics,Mathematics,60,soc_17-1011_00|soc_17-1012_00|soc_17-1021_00,indian_skills_dataset.csv
+SKL-128,Measurement,Measurement,65,soc_47-1011_00|soc_47-1011_03|soc_47-2011_00,indian_skills_dataset.csv
+SKL-129,Mechanical Skills,Mechanical Skills,25,soc_49-1011_00|soc_49-2011_00|soc_49-2021_00,indian_skills_dataset.csv
+SKL-130,Mechanical Understanding,Mechanical Understanding,1,soc_53-5021.00,indian_skills_dataset.csv
+SKL-131,Medical Documentation,Medical Documentation,1,soc_29-1215.01,indian_skills_dataset.csv
+SKL-132,Medical Procedures,Medical Procedures,116,soc_29-1011_00|soc_29-1021_00|soc_29-1022_00,indian_skills_dataset.csv
+SKL-133,Mentoring,Mentoring,68,soc_25-1011_00|soc_25-1021_00|soc_25-1022_00,indian_skills_dataset.csv
+SKL-134,Mentorship,Mentorship,1,soc_25-1022.00,indian_skills_dataset.csv
+SKL-135,Menu Planning,Menu Planning,18,soc_35-1011_00|soc_35-1012_00|soc_35-2011_00,indian_skills_dataset.csv
+SKL-136,Mindfulness Training,Mindfulness Training,1,soc_29-1128.01,indian_skills_dataset.csv
+SKL-137,MS Office,MS Office,55,soc_43-1011_00|soc_43-2011_00|soc_43-2021_00,indian_skills_dataset.csv
+SKL-138,Multitasking,Multitasking,55,soc_43-1011_00|soc_43-2011_00|soc_43-2021_00,indian_skills_dataset.csv
+SKL-139,Navigation,Navigation,2,soc_53-5021.00|soc_55-1012.00,indian_skills_dataset.csv
+SKL-140,Negotiation,Negotiation,93,soc_11-1011.00|soc_11-1011_00|soc_11-1011_03,indian_skills_dataset.csv
+SKL-141,Networking,Networking,23,soc_41-1011_00|soc_41-1012_00|soc_41-2011_00,indian_skills_dataset.csv
+SKL-142,Numerical Reasoning,Numerical Reasoning,1,soc_43-9061.00,indian_skills_dataset.csv
+SKL-143,Nutrition Guidance,Nutrition Guidance,1,soc_29-1128.01,indian_skills_dataset.csv
+SKL-144,Observation,Observation,2,soc_29-1128.01|soc_29-1215.01,indian_skills_dataset.csv
+SKL-145,Organization,Organization,56,soc_43-1011_00|soc_43-2011_00|soc_43-2021_00,indian_skills_dataset.csv
+SKL-146,Patience,Patience,68,soc_25-1011_00|soc_25-1021_00|soc_25-1022_00,indian_skills_dataset.csv
+SKL-147,Patient Care,Patient Care,20,soc_31-1121_00|soc_31-1122_00|soc_31-1131_00,indian_skills_dataset.csv
+SKL-148,Patient Communication,Patient Communication,96,soc_29-1011_00|soc_29-1021_00|soc_29-1022_00,indian_skills_dataset.csv
+SKL-149,Patient Diagnosis,Patient Diagnosis,1,soc_29-1215.01,indian_skills_dataset.csv
+SKL-150,Persuasion,Persuasion,23,soc_41-1011_00|soc_41-1012_00|soc_41-2011_00,indian_skills_dataset.csv
+SKL-151,Pest Management,Pest Management,14,soc_45-1011_00|soc_45-2011_00|soc_45-2021_00,indian_skills_dataset.csv
+SKL-152,Physical Fitness,Physical Fitness,31,soc_33-1011_00|soc_33-1012_00|soc_33-1021_00,indian_skills_dataset.csv
+SKL-153,Physical Stamina,Physical Stamina,10,soc_37-1011_00|soc_37-1012_00|soc_37-2011_00,indian_skills_dataset.csv
+SKL-154,Planning,Planning,1,soc_19-1013.01,indian_skills_dataset.csv
+SKL-155,Policy Analysis,Policy Analysis,2,soc_11-1011.00|soc_13-2011.00,indian_skills_dataset.csv
+SKL-156,Portfolio Development,Portfolio Development,45,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-157,Portfolio Management,Portfolio Management,1,soc_13-2051.00,indian_skills_dataset.csv
+SKL-158,Presentation,Presentation,66,soc_19-1011_00|soc_19-1012_00|soc_19-1013_00,indian_skills_dataset.csv
+SKL-159,Presentation Skills,Presentation Skills,1,soc_25-1022.00,indian_skills_dataset.csv
+SKL-160,Preventive Healthcare,Preventive Healthcare,1,soc_29-1215.01,indian_skills_dataset.csv
+SKL-161,Problem Solving,Problem Solving,234,soc_11-1011.00|soc_11-1011_00|soc_11-1011_03,indian_skills_dataset.csv
+SKL-162,Product Knowledge,Product Knowledge,57,soc_39-1013_00|soc_39-1014_00|soc_39-1022_00,indian_skills_dataset.csv
+SKL-163,Programming,Programming,41,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-164,Project Coordination,Project Coordination,65,soc_47-1011_00|soc_47-1011_03|soc_47-2011_00,indian_skills_dataset.csv
+SKL-165,Project Management,Project Management,62,soc_17-1011_00|soc_17-1012_00|soc_17-1021_00,indian_skills_dataset.csv
+SKL-166,Public Administration,Public Administration,1,soc_11-1011.00,indian_skills_dataset.csv
+SKL-167,Public Speaking,Public Speaking,1,soc_23-1023.01,indian_skills_dataset.csv
+SKL-168,Quality Control,Quality Control,124,soc_17-1011_00|soc_17-1012_00|soc_17-1021_00,indian_skills_dataset.csv
+SKL-169,Quantitative Analysis,Quantitative Analysis,1,soc_13-2051.00,indian_skills_dataset.csv
+SKL-170,Reactor Engineering,Reactor Engineering,1,soc_19-2012.00,indian_skills_dataset.csv
+SKL-171,Record Keeping,Record Keeping,55,soc_43-1011_00|soc_43-2011_00|soc_43-2021_00,indian_skills_dataset.csv
+SKL-172,Regulatory Compliance,Regulatory Compliance,4,soc_13-2011.00|soc_13-2011.01|soc_13-2031.00,indian_skills_dataset.csv
+SKL-173,Relationship Building,Relationship Building,34,soc_39-1013_00|soc_39-1014_00|soc_39-1022_00,indian_skills_dataset.csv
+SKL-174,Reliability,Reliability,10,soc_37-1011_00|soc_37-1012_00|soc_37-2011_00,indian_skills_dataset.csv
+SKL-175,Report Writing,Report Writing,18,soc_21-1011_00|soc_21-1012_00|soc_21-1013_00,indian_skills_dataset.csv
+SKL-176,Research,Research,223,soc_17-1011_00|soc_17-1012_00|soc_17-1021_00,indian_skills_dataset.csv
+SKL-177,Research Methodology,Research Methodology,67,soc_19-1011_00|soc_19-1012_00|soc_19-1013_00,indian_skills_dataset.csv
+SKL-178,Research Skills,Research Skills,2,soc_17-2141.00|soc_19-1013.01,indian_skills_dataset.csv
+SKL-179,Resilience,Resilience,23,soc_41-1011_00|soc_41-1012_00|soc_41-2011_00,indian_skills_dataset.csv
+SKL-180,Risk Assessment,Risk Assessment,64,soc_11-1011_00|soc_11-1011_03|soc_11-1021_00,indian_skills_dataset.csv
+SKL-181,Risk Management,Risk Management,51,soc_13-1011_00|soc_13-1021_00|soc_13-1022_00,indian_skills_dataset.csv
+SKL-182,Rural Communication,Rural Communication,14,soc_45-1011_00|soc_45-2011_00|soc_45-2021_00,indian_skills_dataset.csv
+SKL-183,Safety Analysis,Safety Analysis,1,soc_19-2012.00,indian_skills_dataset.csv
+SKL-184,Safety Management,Safety Management,1,soc_17-2071.00,indian_skills_dataset.csv
+SKL-185,Safety Practices,Safety Practices,65,soc_47-1011_00|soc_47-1011_03|soc_47-2011_00,indian_skills_dataset.csv
+SKL-186,Safety Protocols,Safety Protocols,35,soc_37-1011_00|soc_37-1012_00|soc_37-2011_00,indian_skills_dataset.csv
+SKL-187,Sales,Sales,34,soc_39-1013_00|soc_39-1014_00|soc_39-1022_00,indian_skills_dataset.csv
+SKL-188,Sanitation,Sanitation,34,soc_39-1013_00|soc_39-1014_00|soc_39-1022_00,indian_skills_dataset.csv
+SKL-189,Scheduling,Scheduling,55,soc_43-1011_00|soc_43-2011_00|soc_43-2021_00,indian_skills_dataset.csv
+SKL-190,Scientific Research,Scientific Research,2,soc_19-1042.00|soc_19-2012.00,indian_skills_dataset.csv
+SKL-191,Scientific Writing,Scientific Writing,66,soc_19-1011_00|soc_19-1012_00|soc_19-1013_00,indian_skills_dataset.csv
+SKL-192,Simulation Modeling,Simulation Modeling,1,soc_17-2141.00,indian_skills_dataset.csv
+SKL-193,Simulation Software,Simulation Software,59,soc_17-1011_00|soc_17-1012_00|soc_17-1021_00,indian_skills_dataset.csv
+SKL-194,Situational Awareness,Situational Awareness,3,soc_33-3052.00|soc_53-5021.00|soc_55-1012.00,indian_skills_dataset.csv
+SKL-195,Software Testing,Software Testing,38,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-196,Soil Analysis,Soil Analysis,1,soc_19-1013.01,indian_skills_dataset.csv
+SKL-197,Soil Science,Soil Science,14,soc_45-1011_00|soc_45-2011_00|soc_45-2021_00,indian_skills_dataset.csv
+SKL-198,Speed,Speed,18,soc_35-1011_00|soc_35-1012_00|soc_35-2011_00,indian_skills_dataset.csv
+SKL-199,Stakeholder Management,Stakeholder Management,59,soc_11-1011_00|soc_11-1011_03|soc_11-1021_00,indian_skills_dataset.csv
+SKL-200,Statistical Analysis,Statistical Analysis,66,soc_19-1011_00|soc_19-1012_00|soc_19-1013_00,indian_skills_dataset.csv
+SKL-201,Storytelling,Storytelling,45,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-202,Strategic Advisory,Strategic Advisory,1,soc_23-1011.01,indian_skills_dataset.csv
+SKL-203,Strategic Financial Planning,Strategic Financial Planning,1,soc_13-2011.01,indian_skills_dataset.csv
+SKL-204,Strategic Planning,Strategic Planning,62,soc_11-1011.00|soc_11-1011_00|soc_11-1011_03,indian_skills_dataset.csv
+SKL-205,Strategic Thinking,Strategic Thinking,1,soc_55-1013.00,indian_skills_dataset.csv
+SKL-206,Subject Expertise,Subject Expertise,1,soc_25-1022.00,indian_skills_dataset.csv
+SKL-207,Subject Knowledge,Subject Knowledge,68,soc_25-1011_00|soc_25-1021_00|soc_25-1022_00,indian_skills_dataset.csv
+SKL-208,Supply Chain,Supply Chain,14,soc_45-1011_00|soc_45-2011_00|soc_45-2021_00,indian_skills_dataset.csv
+SKL-209,Surveillance,Surveillance,28,soc_33-1011_00|soc_33-1012_00|soc_33-1021_00,indian_skills_dataset.csv
+SKL-210,Sustainability Practices,Sustainability Practices,14,soc_45-1011_00|soc_45-2011_00|soc_45-2021_00,indian_skills_dataset.csv
+SKL-211,System Design,System Design,38,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-212,Systems Engineering,Systems Engineering,2,soc_17-2141.00|soc_19-1042.00,indian_skills_dataset.csv
+SKL-213,Systems Thinking,Systems Thinking,1,soc_17-2071.00,indian_skills_dataset.csv
+SKL-214,Tactical Operations,Tactical Operations,1,soc_33-3052.00,indian_skills_dataset.csv
+SKL-215,Tactical Planning,Tactical Planning,1,soc_55-1013.00,indian_skills_dataset.csv
+SKL-216,Target Achievement,Target Achievement,23,soc_41-1011_00|soc_41-1012_00|soc_41-2011_00,indian_skills_dataset.csv
+SKL-217,Tax Law Interpretation,Tax Law Interpretation,1,soc_13-2011.00,indian_skills_dataset.csv
+SKL-218,Taxation,Taxation,1,soc_13-2011.01,indian_skills_dataset.csv
+SKL-219,Teaching,Teaching,69,soc_25-1011_00|soc_25-1021_00|soc_25-1022.00,indian_skills_dataset.csv
+SKL-220,Team Collaboration,Team Collaboration,97,soc_19-1042.00|soc_29-1011_00|soc_29-1021_00,indian_skills_dataset.csv
+SKL-221,Team Coordination,Team Coordination,33,soc_17-2071.00|soc_21-1011_00|soc_21-1012_00,indian_skills_dataset.csv
+SKL-222,Team Leadership,Team Leadership,65,soc_47-1011_00|soc_47-1011_03|soc_47-2011_00,indian_skills_dataset.csv
+SKL-223,Team Management,Team Management,59,soc_11-1011_00|soc_11-1011_03|soc_11-1021_00,indian_skills_dataset.csv
+SKL-224,Teamwork,Teamwork,38,soc_31-1121_00|soc_31-1122_00|soc_31-1131_00,indian_skills_dataset.csv
+SKL-225,Technical Advisory,Technical Advisory,1,soc_19-1013.01,indian_skills_dataset.csv
+SKL-226,Technical Aptitude,Technical Aptitude,1,soc_55-1012.00,indian_skills_dataset.csv
+SKL-227,Technical Communication,Technical Communication,2,soc_17-2071.00|soc_17-2141.00,indian_skills_dataset.csv
+SKL-228,Technical Documentation,Technical Documentation,39,soc_15-1211_00|soc_15-1211_01|soc_15-1212_00,indian_skills_dataset.csv
+SKL-229,Technical Drawing,Technical Drawing,59,soc_17-1011_00|soc_17-1012_00|soc_17-1021_00,indian_skills_dataset.csv
+SKL-230,Technical Operations,Technical Operations,1,soc_53-5021.00,indian_skills_dataset.csv
+SKL-231,Technical Skills,Technical Skills,34,soc_39-1013_00|soc_39-1014_00|soc_39-1022_00,indian_skills_dataset.csv
+SKL-232,Technical Troubleshooting,Technical Troubleshooting,25,soc_49-1011_00|soc_49-2011_00|soc_49-2021_00,indian_skills_dataset.csv
+SKL-233,Technical Writing,Technical Writing,1,soc_19-2012.00,indian_skills_dataset.csv
+SKL-234,Therapeutic Planning,Therapeutic Planning,1,soc_29-1128.01,indian_skills_dataset.csv
+SKL-235,Time Management,Time Management,44,soc_37-1011_00|soc_37-1012_00|soc_37-2011_00,indian_skills_dataset.csv
+SKL-236,Trend Awareness,Trend Awareness,45,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-237,Typing Speed,Typing Speed,55,soc_43-1011_00|soc_43-2011_00|soc_43-2021_00,indian_skills_dataset.csv
+SKL-238,Typography,Typography,45,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-239,Visual Communication,Visual Communication,45,soc_27-1011_00|soc_27-1012_00|soc_27-1013_00,indian_skills_dataset.csv
+SKL-240,Wellness Coaching,Wellness Coaching,1,soc_29-1128.01,indian_skills_dataset.csv
+SKL-241,Yoga Instruction,Yoga Instruction,1,soc_29-1128.01,indian_skills_dataset.csv
