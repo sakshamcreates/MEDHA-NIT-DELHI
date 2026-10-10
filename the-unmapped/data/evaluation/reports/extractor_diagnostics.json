@@ -1,0 +1,11 @@
+{
+  "mode": "diagnostics",
+  "caveat": "Intrinsic diagnostic only: skill context docs derive from occupation chunk_texts, inflating absolute scores. Valid for relative config comparison, NOT as a performance claim.",
+  "tfidf": {
+    "recall@10": 1.0,
+    "mrr": 0.2928968253968254
+  },
+  "baseline": {
+    "recall@10": 0.6434146341463415
+  }
+}

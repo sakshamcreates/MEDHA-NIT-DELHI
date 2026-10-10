@@ -1,0 +1,66 @@
+{
+  "caveat": "Intrinsic diagnostic only: skill context docs derive from occupation chunk_texts, inflating absolute scores. Valid for relative config comparison, NOT as a performance claim.",
+  "n_occupations": 820,
+  "results": [
+    {
+      "vectorizer": "word",
+      "ctx_mode": "concat",
+      "w_label": 0.6,
+      "w_ctx": 0.4,
+      "recall@10": 0.9895,
+      "mrr": 0.2927,
+      "build_s": 13.7
+    },
+    {
+      "vectorizer": "word",
+      "ctx_mode": "maxpool",
+      "w_label": 0.6,
+      "w_ctx": 0.4,
+      "recall@10": 1.0,
+      "mrr": 0.2929,
+      "build_s": 10.3
+    },
+    {
+      "vectorizer": "char",
+      "ctx_mode": "concat",
+      "w_label": 0.6,
+      "w_ctx": 0.4,
+      "recall@10": 0.8617,
+      "mrr": 0.2861,
+      "build_s": 69.0
+    },
+    {
+      "vectorizer": "char",
+      "ctx_mode": "maxpool",
+      "w_label": 0.6,
+      "w_ctx": 0.4,
+      "recall@10": 1.0,
+      "mrr": 0.2929,
+      "build_s": 60.9
+    },
+    {
+      "vectorizer": "wordchar",
+      "ctx_mode": "concat",
+      "w_label": 0.6,
+      "w_ctx": 0.4,
+      "recall@10": 0.9491,
+      "mrr": 0.2916,
+      "build_s": 106.4
+    },
+    {
+      "vectorizer": "wordchar",
+      "ctx_mode": "maxpool",
+      "w_label": 0.6,
+      "w_ctx": 0.4,
+      "recall@10": 1.0,
+      "mrr": 0.2929,
+      "build_s": 94.4
+    },
+    {
+      "vectorizer": "keyword_baseline",
+      "ctx_mode": "-",
+      "recall@10": 0.6434,
+      "mrr": null
+    }
+  ]
+}
